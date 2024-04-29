@@ -1,0 +1,20 @@
+# Norb, Ncz, Ncx, nk1, nk2, nk3, nf
+    1    1    1    4    4    0   25
+# beta, delta, delta2, delta3
+      {{ beta }}       0.00000000001       0.00000000000       0.00000000000
+# U, U',J
+   -2.000000000000000   0.000000000000000   0.000000000000000
+# SU2, elph (T or F)
+   T   F
+# Nmax, maxstep, Lmax
+       100   4800000        60
+# Nmesh, Ninteg, Nflip
+        {{ Nmesh }}  100       100
+# ic, jc, kc
+         3         0         0
+# rmix, hmag, xmu, xdens
+   0.700000000000000   0.000000000000000   {{ xmu }}   1.000000000000000
+# Iwmax, Iwout, Nomega
+     36000       200       200
+# fixmu (T or F), first iteration or not
+   T     T
