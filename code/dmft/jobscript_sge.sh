@@ -21,7 +21,7 @@ mkdir ${HOME}//${FULLJOBID}
 cd ${HOME}//${FULLJOBID}
 
 # run things
-/afs/physnet.uni-hamburg.de/users/th1_we/tsievers/Projects/square-lattice-dmft-computations/code/job.sh \
+/afs/physnet.uni-hamburg.de/users/th1_we/tsievers/Projects/square-lattice-dmft-computations/code/dmft/job.sh \
   /afs/physnet.uni-hamburg.de/users/th1_we/tsievers/Projects/square-lattice-dmft-computations \
   "${mu}" \
   "${beta}"
