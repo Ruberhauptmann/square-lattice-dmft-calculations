@@ -25,7 +25,7 @@ datalad run \
   -m "Compute mu=${mu}, beta=${beta}" \
   --explicit \
   -o "dmft_results/mu_${mu}/beta_${beta}.zip" \
-  "sh code/run_dmft.sh $mu $beta"
+  "sh code/dmft/run_dmft.sh $mu $beta"
 
 # push, with filelocking as a safe-guard
 flock --verbose "${DSLOCKFILE}" datalad push --to origin
