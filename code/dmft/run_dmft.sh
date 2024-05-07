@@ -8,7 +8,7 @@ CODE_DIR=${PWD}/code
 # Prepare result directory with input files
 mkdir -p "dmft_results/mu_${mu}/beta_${beta}"
 
-python3 code/generate_inputs.py --mu ${mu} --beta ${beta}
+python3 code/dmft/generate_inputs.py --mu ${mu} --beta ${beta}
 cp "input/mu_${mu}/beta_${beta}/dmft.input" "dmft_results/mu_${mu}/beta_${beta}/"
 cp "input/HR.txt" "dmft_results/mu_${mu}/beta_${beta}/"
 
