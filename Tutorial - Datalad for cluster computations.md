@@ -58,7 +58,7 @@ git branch -d $(git branch | grep job-*)
 To add gitlab as remote:
 ```shell
 git remote add gitlab git@git.physnet.uni-hamburg.de:tsievers/square-lattice-dmft-results.git
-datalad push --to gitlab 
+datalad push --to gitlab
 ```
 
 Create new repo on gin

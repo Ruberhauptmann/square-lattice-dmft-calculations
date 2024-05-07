@@ -48,4 +48,3 @@ do
   cp sigma.txt sigma_$i.txt
   date >> log.txt
 done
-
