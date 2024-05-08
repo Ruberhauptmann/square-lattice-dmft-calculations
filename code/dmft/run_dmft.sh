@@ -15,7 +15,7 @@ cp "input/HR.txt" "dmft_results/mu_${mu}/beta_${beta}/"
 cd "dmft_results/mu_${mu}/beta_${beta}"
 
 # Run the actual DMFT loop in the result directory (so all files get placed there)
-"${CODE_DIR}"/dmft_loop.sh
+"${CODE_DIR}"/dmft/dmft_loop.sh
 
 # Zip up files
 cd ../
