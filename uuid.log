@@ -20,6 +20,7 @@
 2d2a9a7c-8393-492f-8682-10e4c08c4d1e tsievers@idefix717:~/mu_0.0.beta_12.9.7778523/ds timestamp=1715000062.806776277s
 2fb02453-d038-4d30-b9c7-4b0696c534fe tsievers@idefix723:~/mu_0.0.beta_26.0.7778723/ds timestamp=1715001209.882765711s
 306977e0-6748-4a16-8390-63de5bfca5ce tsievers@idefix705:~/mu_0.0.beta_13.7.7778526/ds timestamp=1715000164.513673998s
+3281e261-72d8-421a-b473-b8789e5f4ccc tsievers@idefix727:~/mu_1.0.beta_6.0.7794885/ds timestamp=1715259036.168394735s
 36990da3-e1d9-43b0-9965-dbcc92eb6e77 tsievers@idefix768:~/mu_0.0.beta_9.3.7773880/ds timestamp=1714648278.447337778s
 393e3906-8a18-4041-b726-5e64c22bdc3f tsievers@idefix752:~/mu_0.0.beta_11.3.7778519/ds timestamp=1714999772.467710778s
 44c44d40-b279-435d-80d3-5de37d3ef0d9 tsievers@idefix742:~/mu_0.0.beta_12.3.7773895/ds timestamp=1714777906.506731301s
@@ -47,6 +48,7 @@
 a984ff72-a4de-4614-ad33-349c34f0297b tsievers@idefix713:~/mu_-1.0.beta_13.0.7794872/ds timestamp=1715224980.26299887s
 aaa23b35-a2bf-462e-a9f7-3e403f5362c2 tsievers@idefix705:~/mu_0.0.beta_10.9.7778517/ds timestamp=1714999671.07602809s
 abfca534-62a4-48e4-a16a-1fd12add28e2 tsievers@idefix753:~/mu_0.0.beta_2.0.7754612/ds timestamp=1714383603.404027353s
+aeb0debc-220a-4fb9-8940-282cce9a486f tsievers@idefix769:~/mu_1.0.beta_12.0.7794891/ds timestamp=1715260374.084334894s
 b15159fb-e138-4f8d-8ad4-9c59086a0279 tsievers@idefix725:~/mu_0.0.beta_13.3.7778525/ds timestamp=1715000132.796344025s
 b1afeda5-2e87-4666-b4fd-270a0bf4159b tsievers@idefix756:~/mu_0.0.beta_29.0.7754638/ds timestamp=1714385324.310322396s
 b1e3d5c6-8f55-4996-baec-f593738d8683 tjark@th1-2023-dub04:~/Projects/square-lattice-dmft-computations timestamp=1714381975.830388914s
@@ -54,6 +56,7 @@ b2949d2c-c706-422d-8ea7-93e27058a48b tsievers@idefix732:~/mu_0.0.beta_13.1.77898
 b457dc42-26bc-47ce-8990-8fd209003001 cluster-storage timestamp=1714382077.052574004s
 b70ca268-fe73-46c5-80fc-a9bb6c8c4e8a tsievers@idefix763:~/mu_0.0.beta_26.0.7754635/ds timestamp=1714384910.076329838s
 bf10460a-9ba7-4ef3-93cd-9013b879affb tsievers@idefix727:~/mu_-1.0.beta_23.0.7794880/ds timestamp=1715231926.303357735s
+bf989f2b-757a-491f-8126-c655a3617e49 tsievers@idefix747:~/mu_1.0.beta_10.0.7794889/ds timestamp=1715261794.22747767s
 c0793549-9f40-449a-a903-d99d348628e8 tsievers@idefix730:~/mu_0.0.beta_13.5.7773901/ds timestamp=1714822012.009324357s
 c6427fa9-02df-404b-89e8-59a9bcb64709 tsievers@idefix718:~/mu_0.0.beta_0.1.7754561/ds timestamp=1714382159.433636916s
 c84d507e-7ec7-4d80-a3ef-6af3a61654ab tsievers@idefix733:~/mu_-1.0.beta_3.0.7794862/ds timestamp=1715192131.783773469s
