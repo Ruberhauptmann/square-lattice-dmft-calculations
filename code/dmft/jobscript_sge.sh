@@ -1,7 +1,7 @@
 #$ -q infinix.q
 #$ -l h_vmem=3G
 #$ -pe mpi 16
-#$ -l h_cpu=20:00:00
+#$ -l h_cpu=30:00:00
 #$ -M tsievers@physnet.uni-hamburg.de -m eas
 #$ -cwd
 #$ -S /bin/bash
