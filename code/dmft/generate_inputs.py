@@ -13,7 +13,7 @@ interaction = args.interaction
 beta = args.beta
 Nmesh = 100 * beta
 
-mu_path = Path(f"input/U_{interaction}")
+U_path = Path(f"input/U_{interaction}")
 
 tmpl_loader = jinja2.FileSystemLoader(searchpath="input")
 tmpl_env = jinja2.Environment(loader=tmpl_loader)
@@ -25,6 +25,6 @@ data = {
     "U": f"{interaction:.15f}",
 }
 
-mu_path.joinpath(f"beta_{beta}").mkdir(exist_ok=True, parents=True)
-with open(mu_path.joinpath(f"beta_{beta}", "dmft.input"), "w") as fout:
+U_path.joinpath(f"beta_{beta}").mkdir(exist_ok=True, parents=True)
+with open(U_path.joinpath(f"beta_{beta}", "dmft.input"), "w") as fout:
     fout.write(template.render(**data))
