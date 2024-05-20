@@ -9,7 +9,7 @@ CODE_DIR=${PWD}/code
 mkdir -p "dmft_results/U_${U}/beta_${beta}"
 
 python3 code/dmft/generate_inputs.py -U ${U} --beta ${beta}
-cp "input/mu_${mu}/beta_${beta}/dmft.input" "dmft_results/U_${U}/beta_${beta}/"
+cp "input/U_${mu}/beta_${beta}/dmft.input" "dmft_results/U_${U}/beta_${beta}/"
 cp "input/HR.txt" "dmft_results/U_${U}/beta_${beta}/"
 
 cd "dmft_results/U_${U}/beta_${beta}"
