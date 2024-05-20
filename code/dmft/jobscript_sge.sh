@@ -11,7 +11,7 @@ module load anaconda3/2023.03
 
 conda activate datalad
 
-mu=$1
+U=$1
 beta=$2
 
 # define DSLOCKFILE & GIT ENV for job.sh
@@ -23,7 +23,7 @@ cd ${HOME}//${FULLJOBID}
 # run things
 /afs/physnet.uni-hamburg.de/users/th1_we/tsievers/Projects/square-lattice-dmft-computations/code/dmft/job.sh \
   /afs/physnet.uni-hamburg.de/users/th1_we/tsievers/Projects/square-lattice-dmft-computations \
-  "${mu}" \
+  "${U}" \
   "${beta}"
 
 cd ${HOME}

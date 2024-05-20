@@ -5,7 +5,7 @@ set -e -u -x
 
 # we pass arbitrary arguments via job scheduler and can use them as variables
 dssource="$1"
-mu="$2"
+U="$2"
 beta="$3"
 
 # go into unique location
@@ -24,8 +24,8 @@ git checkout -b "job-${FULLJOBID}"
 datalad run \
   -m "Compute mu=${mu}, beta=${beta}" \
   --explicit \
-  -o "dmft_results/mu_${mu}/beta_${beta}.zip" \
-  "sh code/dmft/run_dmft.sh $mu $beta"
+  -o "dmft_results/U_${U}/beta_${beta}.zip" \
+  "sh code/dmft/run_dmft.sh $U $beta"
 
 # push, with filelocking as a safe-guard
 flock --verbose "${DSLOCKFILE}" datalad push --to origin
