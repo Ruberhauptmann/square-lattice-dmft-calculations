@@ -22,7 +22,7 @@ git checkout -b "job-${FULLJOBID}"
 
 # run the job
 datalad run \
-  -m "Compute mu=${mu}, beta=${beta}" \
+  -m "Compute U=${U}, beta=${beta}" \
   --explicit \
   -o "dmft_results/U_${U}/beta_${beta}.zip" \
   "sh code/dmft/run_dmft.sh $U $beta"
