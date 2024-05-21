@@ -5,19 +5,20 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import sys
 
 
-def read_results():
-    mu_list = glob.glob("dmft_results/mu_*")
+def clean_results():
+    U_list = sys.argv[1:-1]
 
-    csv_path = Path("cleaned_data/beta_vs_OP")
+    csv_path = Path(sys.argv[-1])
     csv_path.mkdir(exist_ok=True, parents=True)
 
     result_list = {}
 
-    for mu_dir in mu_list:
-        mu = mu_dir.split("/")[-1].split("_")[-1]
-        beta_file_list = glob.glob(f"{mu_dir}/beta_*")
+    for U_dir in U_list:
+        U = U_dir.split("/")[-1].split("_")[-1]
+        beta_file_list = glob.glob(f"{U_dir}/beta_*")
         beta_list = []
         order_parameter_list = []
 
@@ -42,11 +43,10 @@ def read_results():
         results.sort_values(by=["beta"], inplace=True)
         results.reset_index(inplace=True)
         results.drop(["index"], axis=1, inplace=True)
-        results.to_csv(csv_path.joinpath(f"mu_{mu}.csv"))
-        result_list[mu] = results
+        results.to_csv(csv_path.joinpath(f"U_{U}.csv"), index=False)
 
     return result_list
 
 
 if __name__ == "__main__":
-    print(read_results())
+    clean_results()

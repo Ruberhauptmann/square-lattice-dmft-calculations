@@ -15,7 +15,7 @@ U=$1
 beta=$2
 
 # define DSLOCKFILE & GIT ENV for job.sh
-export DSLOCKFILE=${PWD}/.datalad_lock GIT_AUTHOR_NAME=$(git config user.name) GIT_AUTHOR_EMAIL=$(git config user.email) FULLJOBID="U_${mu}.beta_${beta}.${JOB_ID}"
+export DSLOCKFILE=${PWD}/.datalad_lock GIT_AUTHOR_NAME=$(git config user.name) GIT_AUTHOR_EMAIL=$(git config user.email) FULLJOBID="U_${U}.beta_${beta}.${JOB_ID}"
 # use subject specific folder
 mkdir ${HOME}//${FULLJOBID}
 cd ${HOME}//${FULLJOBID}
