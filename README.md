@@ -1,10 +1,15 @@
 # DMFT calculations on the attractive Hubbard model on a square lattice
 
-Rerun extraction of order parameter vs OP (for example when new data is available):
+Rerun extraction of order parameter vs beta (for example when new data is available):
 ```shell
 datalad rerun extract-OP-vs-beta
 ```
 This is a git tag for a datalad run command!
+
+Rerun of creation of plots for OP vs beta (for example when new data is available):
+```shell
+datalad rerun plot-OP-vs-beta
+```
 
 ## General
 
