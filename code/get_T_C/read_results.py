@@ -1,11 +1,11 @@
 import glob
 import io
+import sys
 import zipfile
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
-import sys
 
 
 def clean_results():
