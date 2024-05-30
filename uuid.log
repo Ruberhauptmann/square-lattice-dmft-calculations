@@ -48,6 +48,7 @@
 1530503e-7704-401c-9a1a-35c90b33aea5 tsievers@idefix764:~/U_.beta_15.0.7829618/ds timestamp=1716208476.723776871s
 15921a7b-a422-4c95-9cec-827b5f122a0f tsievers@idefix749:~/U_-5.0.beta_4.6.7833074/ds timestamp=1716383389.095917583s
 15ae4e57-4d7f-44c9-81c6-71f4e744e504 tsievers@idefix709:~/mu_0.0.beta_11.0.7754620/ds timestamp=1714384394.677834633s
+180bd0b2-2d57-44f8-a24b-4870364817ef tsievers@idefix744:~/U_-4.0.beta_6.9.7843949/ds timestamp=1717064788.968370528s
 1846f9f4-3ab9-47b3-99ab-b8ab01778195 tsievers@idefix701:~/U_-6.0.beta_6.6.7833131/ds timestamp=1716391803.616469782s
 193fa6ea-51b8-4059-b47c-9c58de36ae3e tsievers@idefix764:~/U_.beta_13.0.7829691/ds timestamp=1716243741.93815509s
 1af8cf5f-d602-45ed-b61e-529f061d0082 tsievers@idefix727:~/mu_1.0.beta_21.0.7794899/ds timestamp=1715280467.478930372s
@@ -118,6 +119,7 @@
 39cc04f2-9e5d-4bff-8b89-55e2c33c7a76 tsievers@idefix736:~/mu_-1.0.beta_32.0.7801874/ds timestamp=1715594470.4681552s
 3a39574a-00cc-4a26-83ef-95f0fdaeeead tsievers@idefix747:~/U_-6.0.beta_2.5.7830928/ds timestamp=1716307534.18708241s
 3b315c73-7cac-4e48-acb9-567f7fff6011 tsievers@idefix766:~/U_-4.0.beta_5.1.7843934/ds timestamp=1717054085.286734731s
+3e86872b-fe15-480d-b348-712de9dd2844 tsievers@idefix721:~/U_-5.0.beta_3.4.7843953/ds timestamp=1717068539.808389008s
 3ee724f8-8bac-42fa-9fe3-f876afd531a3 tsievers@idefix749:~/U_-5.0.beta_3.1.7833062/ds timestamp=1716381768.238229606s
 3fc54aba-0a6d-4974-b177-724daed295a1 tsievers@idefix749:~/U_-5.0.beta_5.7.7833083/ds timestamp=1716385110.117980859s
 407166f0-1843-4e5a-b806-d8f3aabc21dd tsievers@idefix704:~/U_.beta_23.0.7829626/ds timestamp=1716212035.142345169s
@@ -147,6 +149,7 @@
 4d0a3381-97dd-4175-b8ce-535cf3a2db7a tsievers@idefix706:~/U_.beta_15.0.7829643/ds timestamp=1716219258.153092229s
 4d4bf4b3-ee98-47ac-bb4a-7c0c2353147b tsievers@idefix735:~/U_.beta_16.0.7829719/ds timestamp=1716254451.999546519s
 4e45e9f9-38bd-498c-b14a-66c861787541 tsievers@idefix760:~/mu_0.0.beta_24.0.7754633/ds timestamp=1714385591.658197798s
+4f26e899-8286-4ad4-bd1b-d6dc433af4d2 tsievers@idefix767:~/U_-4.0.beta_6.7.7843947/ds timestamp=1717063969.028243497s
 4f5e101d-604f-40e5-81fa-b6a3663099cc tsievers@idefix708:~/U_-5.0.beta_3.7.7833067/ds timestamp=1716382469.083977369s
 4ff65970-a1a5-47e5-a26c-b57636d8784f tsievers@idefix763:~/U_-4.0.beta_5.3.7843936/ds timestamp=1717056487.062393969s
 50115daf-7e45-4be6-9d6b-1b87e2ef2a23 tsievers@idefix736:~/U_.beta_1.0.7829539/ds timestamp=1716205745.528058283s
@@ -407,6 +410,7 @@ e8cad914-aa45-4ba1-8069-ab86ba9f4240 tsievers@idefix709:~/mu_0.0.beta_5.0.775461
 ea73ccd8-44f1-499a-a933-669ab7713f08 tsievers@idefix708:~/U_-3.0.beta_7.6.7833014/ds timestamp=1716371595.722487592s
 ea79a35e-ad48-4d43-a4c0-1accf604aa9b tsievers@idefix771:~/mu_0.0.beta_7.0.7754617/ds timestamp=1714384122.42672934s
 ebf63c49-de81-4ee9-8fcf-c316d2c244a7 tsievers@idefix708:~/U_-3.0.beta_6.9.7833009/ds timestamp=1716369952.823258935s
+ecff2aa0-eeb8-4d6d-bc78-8ea35dc85cf5 tsievers@idefix721:~/U_-4.0.beta_6.6.7843946/ds timestamp=1717063469.524394014s
 ed029f16-a0a9-41e9-9543-6b9abac3086a tsievers@idefix721:~/U_-3.0.beta_8.4.7843909/ds timestamp=1717037459.788543614s
 ee0514e4-0afc-498b-a691-8b75760fbcd3 tsievers@idefix702:~/U_.beta_2.0.7829655/ds timestamp=1716227312.805088221s
 ee2e88cf-2bb5-493f-9d9a-54cf551a7bd2 tsievers@idefix721:~/U_-3.0.beta_5.6.7843886/ds timestamp=1716995945.254873178s
@@ -435,6 +439,7 @@ f84ad8e7-ae76-4f54-84c0-78f2aa02c151 tsievers@idefix766:~/U_-3.0.beta_8.3.784390
 f855c3a2-1083-420e-8f12-457a224fd1ce tsievers@idefix730:~/mu_0.0.beta_11.7.7773892/ds timestamp=1714740413.382338516s
 f91e0c2b-9cb0-44bc-bed2-595bd8d04ede tsievers@idefix767:~/mu_0.0.beta_11.9.7778520/ds timestamp=1714999851.228816782s
 fa0a3905-6ab4-499b-9577-6358583d23bf tsievers@idefix749:~/U_-5.0.beta_3.8.7833068/ds timestamp=1716382549.804875083s
+fa88cb28-38a4-41d3-a801-f70a308c99a3 tsievers@idefix731:~/U_-5.0.beta_3.3.7843952/ds timestamp=1717068375.762437656s
 fb2dbfa3-b119-4b0a-a7e1-2eed64b56ff8 tsievers@idefix708:~/U_-6.0.beta_4.8.7833117/ds timestamp=1716390253.024301006s
 fb453a4f-7450-4308-a6e1-cbea6a827064 tsievers@idefix702:~/U_.beta_5.0.7829608/ds timestamp=1716208602.331729445s
 fb8b1cd3-c4d3-45d4-a7d5-684ce328675a tsievers@idefix730:~/mu_0.0.beta_12.1.7773894/ds timestamp=1714762015.220403485s
