@@ -1,0 +1,20 @@
+#!/bin/bash
+code/dmft/submit_job.sh -2.5 2.0
+code/dmft/submit_job.sh -2.5 4.0
+code/dmft/submit_job.sh -2.5 6.0
+code/dmft/submit_job.sh -2.5 8.0
+code/dmft/submit_job.sh -2.5 9.0
+code/dmft/submit_job.sh -2.5 9.5
+code/dmft/submit_job.sh -2.5 10.0
+code/dmft/submit_job.sh -2.5 10.5
+code/dmft/submit_job.sh -2.5 11.0
+code/dmft/submit_job.sh -2.5 11.5
+code/dmft/submit_job.sh -2.5 12.0
+code/dmft/submit_job.sh -2.5 12.5
+code/dmft/submit_job.sh -2.5 13.0
+code/dmft/submit_job.sh -2.5 13.5
+code/dmft/submit_job.sh -2.5 14.0
+code/dmft/submit_job.sh -2.5 15.0
+code/dmft/submit_job.sh -2.5 16.0
+code/dmft/submit_job.sh -2.5 17.0
+code/dmft/submit_job.sh -2.5 18.0
