@@ -14,8 +14,8 @@ if __name__ == "__main__":
 
     fig, ax = plt.subplots()
 
-    ax.plot(results.loc[:, "U"], results.loc[:, "T_C"], "x--")
-    ax.set_xlabel("$U$")
+    ax.plot(-results.loc[:, "U"], results.loc[:, "T_C"], "x--")
+    ax.set_xlabel("$-U$")
     ax.set_ylabel("$T_C$")
 
     fig.savefig(plot_path.joinpath("T_C_vs_U.pdf"))
