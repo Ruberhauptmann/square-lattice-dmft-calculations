@@ -16,6 +16,11 @@ Rerun extraction of T_C vs U:
 datalad rerun extract-T_C-vs_U
 ```
 
+Rerun plot of T_C vs U:
+```shell
+datalad rerun plot-T_C-vs_U
+```
+
 ## General
 
 Need self and ctqmc compiled, also a version of init with the number of processors, so e.g. init_48
