@@ -11,6 +11,11 @@ Rerun of creation of plots for OP vs beta (for example when new data is availabl
 datalad rerun plot-OP-vs-beta
 ```
 
+Rerun extraction of T_C vs U:
+```shell
+datalad rerun extract-T_C-vs_U
+```
+
 ## General
 
 Need self and ctqmc compiled, also a version of init with the number of processors, so e.g. init_48
