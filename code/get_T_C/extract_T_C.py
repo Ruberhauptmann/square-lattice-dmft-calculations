@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
         critical_temp = -linear_reg.intercept / linear_reg.slope
 
-        critical_temperatures["U"] = U
+        #critical_temperatures["U"] = U
         critical_temperatures.loc[index] = [U, critical_temp, 1 / critical_temp]
 
     critical_temperatures.to_csv(csv_path.joinpath("T_C_vs_U.csv"), index=False)
