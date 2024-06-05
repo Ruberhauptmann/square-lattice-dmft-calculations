@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
     plot_path = Path(sys.argv[-1])
     plot_path.mkdir(exist_ok=True, parents=True)
-    csv_path = Path(sys.argv[-2])
+    csv_path = Path(sys.argv[-2]).parent
 
     critical_temperatures = pd.DataFrame(
         columns=["U", "T_C", "beta_C"], index=range(len(U_list))
